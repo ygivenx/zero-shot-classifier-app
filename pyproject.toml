@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "zero-shot-app"
+version = "0.1.0"
+description = "An app using Hugging Face zero shot classification"
+authors = ["Rohan Singh <singhrohan@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^0.80.0"
+transformers = "^4.5.1"
+Pillow = "^8.2.0"
+torch = "^1.8.1"
+watchdog = "^2.0.2"
+pandas = "^1.2.4"
+plotly = "^4.14.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
